@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script  src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  crossorigin="anonymous"></script>
+    <script src="js/jcf.js"></script>
+    <script src="js/jcf.select.js"></script>
+    <script src="js/jquery.main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" class="contact-form">
+            <div class="form-row">
+                <input type="radio" name="gender" id="radio1" class="radio-box">
+                <label for="radio1" class="radio-label">Male</label>
+            </div>
+            <div class="form-row">
+                <input type="radio" name="gender" id="radio2" class="radio-box">
+                <label for="radio2" class="radio-label">Female</label>
+            </div>
+            <div class="form-row">
+                <label for="select-city" class="select-label">Choose your city</label>
+                <select name="#" id="select-city" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                    <option>Kiev</option>
+                    <option>Odessa</option>
+                    <option>Poltava</option>
+                    <option>Kherson</option>
+                    <option>Luhansk</option>
+                    <option>Simferopol</option>
+                    <option>Donet'k</option>
+                    <option>Cherkasy</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <input type="checkbox" name="#" id="checkbox" class="checkbox">
+                <label for="checkbox" class="check-label">Yes, I agree</label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
